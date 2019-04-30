@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+
+}
+
+html {
+    font-size: 62.5%
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 75%
+    }
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1fc1ed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .name{
+    font-size: 5rem;
+    margin: 2rem;
+    color: white;
+
+}
+
+header .msg{
+    margin: 3rem;
+    font-size: 1.6rem;
+}
+.btn-download a{
+    background-color: #db4c3f;
+    padding: 2rem;
+    margin: 4rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
